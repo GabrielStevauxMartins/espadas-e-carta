@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Espadas e Cartas | Character Sheet</title>
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/characterStylesheet.css">
+        <link rel="stylesheet" href="./src/css/mossy.css">
+        <link rel="shortcut icon" href="./src/img/cartas.png">
+    </head>
+    <body>
+        <main class="main">
+            <div class="container">
+                <div class="cartao-box">
+                    <div class="cartao ativo character-sheet">
+                        <div class="cartao-info">
+                            <h2 class="cartao-titulo">Mossy</h2>
+                            <img src="./src/img/mossy.png" alt="Mossy">
+                        </div>
+    
+                        <div class="cartao-detalhes">
+                            <ul class="cartao-detalhes-list">
+                                <form action="#">
+                                    <div class="input-container">
+                                        <div class="esquerda">
+                                            <div class="input-box">
+                                                <label for="forca">Força:</label>
+                                                <input type="text" name="forca" id="forca" class="input" placeholder="00" maxlength="2">
+                                            </div>
+                                            
+                                            <div class="input-box">
+                                                <label for="velocidade">Veloc.:</label>
+                                                <input type="text" name="velocidade" id="velocidade" class="input" placeholder="00" maxlength="2">
+                                            </div>
+        
+                                            <div class="input-box">
+                                                <label for="inteligencia">Intelig:</label>
+                                                <input type="text" name="inteligencia" id="inteligencia" class="input" placeholder="00" maxlength="2">
+                                            </div>
+                                        </div>
+    
+                                        <div class="direita">
+                                            <div class="input-box">
+                                                <label for="vida">Vida:</label>
+                                                <input type="text" name="vida" id="vida" class="input" placeholder="00" maxlength="2">
+                                            </div>
+                                            
+                                            <div class="input-box">
+                                                <label for="defesa">Defe.:</label>
+                                                <input type="text" name="defesa" id="defesa" class="input" placeholder="00" maxlength="2">
+                                            </div>
+        
+                                            <div class="input-box">
+                                                <label for="exp">Expe:</label>
+                                                <input type="text" name="exp" id="exp" class="input" placeholder="00" maxlength="2">
+                                            </div>
+                                        </div>
+                                    </div>                                
+                                </form>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="cartoes">
+                    <ul class="cartoes-lista">
+                        <li class="cartoes-item">
+                            <a href="#" target="_blank">
+                                <img src="./src/img/documento.png" alt="Documento">
+                                <p>Detalhes do Personagem</p>
+                            </a>
+                        </li>
+
+                        <li class="cartoes-item">
+                            <a href="#" target="_blank">
+                                <img src="./src/img/livro.png" alt="Livro">
+                                <p>Livro de Monstros</p>
+                            </a>
+                        </li>
+
+                        <li class="cartoes-item">
+                            <a href="#" target="_blank">
+                                <img src="./src/img/espadas.png" alt="Espadas">
+                                <p>Lista dos Equipamentos</p>
+                            </a>
+                        </li>
+
+                        <li class="cartoes-item">
+                            <button>
+                                <img src="./src/img/salvar.png" alt="Salvar">
+                                <p>Salvar</p>
+                            </button>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

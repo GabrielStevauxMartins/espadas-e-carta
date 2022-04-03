@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    height: 100vh;
+}
+
+.main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.characters-card {
+    width: 70%;
+    background-color: #F9EACD;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 15px solid #543434;
+}
+
+.title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 20%;
+    color: #543434;
+}
+
+.character-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.smokie {
+    transition: .5s;
+    opacity: 50%;
+}
+
+.smokie:hover {
+    transform: scale(1.15);
+    opacity: 100%;
+}
+
+.mossy {
+    transition: .5s;
+    opacity: 50%;
+}
+
+.mossy:hover {
+    transform: scale(1.15);
+    opacity: 100%;
+}
+
+
+.gwend {
+    transition: .5s;
+    opacity: 50%;
+}
+
+.gwend:hover {
+    transform: scale(1.15);
+    opacity: 100%;
+}
+

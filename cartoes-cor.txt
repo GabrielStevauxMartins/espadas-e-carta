@@ -1,0 +1,23 @@
+verde
+
+cima - 55B78B
+baixo - 508C6D
+
+azul
+
+cima- 646B99
+baixo - 5F6793
+
+amarelo
+
+cima - FFB31A
+baixo - EF9325
+
+vermelho
+
+cima - F94668
+baixo - D63866
+
+bege - F9EACD
+
+borda - 543434
